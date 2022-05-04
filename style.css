@@ -1,0 +1,300 @@
+ html{
+   scroll-behavior: smooth;
+ }
+
+ /* Style the video: 100% width and height to cover the entire window */
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+}
+ #myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+  }
+
+  #myVideo2 {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content-1 {
+    position: relative;
+    bottom: 92px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* navbar */
+  .fx{
+      margin: auto;
+  }
+ /* logo */
+ .logo{
+     width: 180px;
+ }
+ /*section1*/
+ #main .video2 video{
+     height: 360px;   
+ }
+
+ #part1{
+   margin-top: 40px;
+   background-color: rgb(226 232 240);
+ }
+ #part1 .inscrit img{
+   width: 520px;
+   height: 480px;
+ }
+ #part1 .title h3{
+   text-align: center;
+ }
+ #part1 .text p{
+   margin-top: 70px;
+ }
+
+ /* section part 3*/
+ .cr{
+   width: 700px;
+   display: inline-block;
+   margin: auto;
+ }
+ .textco p{
+   text-align: center;
+ }
+ #part3{
+   margin-top: 60px;
+   background-color: rgb(241 245 249);
+ }
+  #part3 .title h3{
+   text-align: center;
+ }
+
+ #main{
+  background-color: rgb(241 245 249);
+ }
+
+ #main .text1 h3{
+   text-align: center;
+ }
+ #main .text p{
+  text-align: justify;
+  margin: 50px;
+ }
+ #main .win h5{
+   text-align: center;
+   position: relative;
+   left: 110px;
+   font-style: italic;
+   font-weight: bold;
+ }
+
+/* Footer */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #f1f5f9;
+position: relative;
+top: 60px;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+
+.single-cta{
+  position: relative;
+  left: 0px;
+  padding-left: 120px;
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #18181b;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #27272a;
+font-size: 15px;
+ 
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+  color: #7e7e7e;
+line-height: 28px;
+} 
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+
+.copyright-area p {
+  position: relative;
+  left: 260px;
+margin: 0;
+font-size: 14px;
+color: #878787;
+text-align: center;
+}
+.copyright-area p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
+
+
+@media (min-width: 1400px){
+
+  figure img{
+    position: relative;
+    left: 100px;
+  }
+
+  figure figcaption{
+    position: relative;
+    left: 120px;
+  }
+
+  .img-desc .figure figcaption{
+    position: relative;
+    left: 280px;
+  }
+
+  .img-desc .figure .diag{
+    position: relative;
+    left: 280px;
+  }
+  .copyright-area .text-lg-left p{
+    position: relative;
+    left: 320px;
+}
+
+}
+
+@media (max-width: 576px){
+
+  #myVideo {
+    position: relative;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    height: 80%;
+  }
+
+  #myVideo2 {
+    position: relative;
+    right: 0px;
+    bottom: 10px;
+    width: 100%;
+    height: 80%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content-1 {
+     display: none;
+  }
+
+  nav{
+    z-index: 9999;
+    width: 100%;
+  }
+  .text1{
+    position: relative;
+    top: 40px;
+  }
+  #main .text p{
+   position: relative;
+   top: 30px;
+  }
+  .win h5{
+    display: none;
+  }
+  #part1 .easyzoom a img{
+    width: 335px;
+    height: 360px;
+    position: relative;
+    top: 25px;
+  }
+  .hero-text h1{
+    font-size: 28px;
+  }
+
+  .text1 h3{
+    position: relative;
+    top: 40px;
+  }
+
+  .img-desc .figure img{
+    position: relative;
+    right: 40px;
+    width: 240px;
+  }
+  .part-2 .text figure img{
+    position: relative;
+    left: -45px;
+  }
+
+  .part-2 .text .img-desc figure figcaption{
+    position: relative;
+    left: -50px;
+  }
+
+  .footer-section .single-cta{
+    padding: 18px 0;
+  }
+
+  .copyright-area .text-lg-left p{
+    position: relative;
+    left: 0px;
+  }
+
+}
